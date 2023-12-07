@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="./formStyle.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="heading">Form Validaton</h1>
+        <form action="https://www.google.com" method="post" id="form">
+            <div class="input-control">
+                <label for="userName">User Name</label>
+                <input type="text" name="userName" id="userName">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="email">email</label>
+                <input type="text" name="email" id="email">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="pswrd">Password</label>
+                <input type="password" name="password" id="pswrd">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="pswrd-again">Password again</label>
+                <input type="password" name="pswrd-again" id="pswrd-again">
+                <div class="error"></div>
+            </div>
+            <input type="submit" value="Submit" id="submitBtn">
+        </form>
+    </div>
+
+
+
+
+
+    <script src="./formjs.js"></script>
+</body>
+
+</html>

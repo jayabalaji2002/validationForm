@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Raleway&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+#heading{
+    
+    margin: 10px auto 0 550px;
+
+}
+#form{
+    background-color: whitesmoke;
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.input-control{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.input-control input{
+    display: block;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    height: 25px;
+    width: 100%;
+    font-size:15px;
+}
+
+.input-control input:focus{
+    outline: 0;
+    background-color:rgba(238, 130, 238, 0.386);
+}
+
+.input-control.success input{
+    border-color: #09c372;
+}
+
+.input-control.error input{
+    border-color: rgb(248, 57, 51);
+}
+
+.input-control .error{
+    color: #ff3860;
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+
+
+
+#submitBtn{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgb(41, 57, 194);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
